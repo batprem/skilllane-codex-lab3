@@ -15,10 +15,9 @@ if ! command -v codex &> /dev/null; then
   exit 1
 fi
 
-codex exec \
-  --sandbox read-only \
+codex --sandbox read-only \
   --ask-for-approval never \
-  --json \
+  exec --json \
   "Read the last 7 days of git log in this repo and write a concise
    CHANGELOG entry in markdown format. Group commits by type
    (feat / fix / chore / docs). Output only the markdown — no preamble."
