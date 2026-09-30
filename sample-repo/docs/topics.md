@@ -12,3 +12,5 @@
 - Assistants API
 - Realtime API
 - Audio (TTS / Whisper)
+
+<!-- last touched: regen 2026-10-01 -->

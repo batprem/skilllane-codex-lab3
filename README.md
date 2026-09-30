@@ -37,7 +37,7 @@ Summarize what kind of examples this repo contains, group by topic.
 
 **รอบ 2 — workspace-write + on-request:**
 ```bash
-codex --full-auto
+codex --yolo
 ```
 prompt:
 ```
